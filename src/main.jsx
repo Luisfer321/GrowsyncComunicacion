@@ -13,7 +13,8 @@ import App from './App.jsx';
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    {/* basename indica a react-router que todas las rutas viven bajo /GrowsyncComunicacion */}
+    <BrowserRouter basename="/GrowsyncComunicacion">
       <App />
     </BrowserRouter>
   </React.StrictMode>
