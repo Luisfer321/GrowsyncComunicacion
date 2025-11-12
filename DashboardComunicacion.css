@@ -1,0 +1,25 @@
+.card-feature {
+  background-color: white;
+  border-left: 6px solid #2C5F2D;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transition: transform .2s ease;
+}
+.card-feature:hover {
+  transform: translateY(-5px);
+}
+.resumen {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+.resumen li {
+  margin-bottom: .5rem;
+}
+.chart-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
